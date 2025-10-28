@@ -75,7 +75,7 @@ select:focus{
     background: linear-gradient(90deg, #6a11cb, #2575fc);
     border: none;
     color: #fff;
-    padding: 0.8rem;
+    padding: 9px 80px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
@@ -89,14 +89,15 @@ select:focus{
     background: #28c76f;
     border: none;
     color: white;
-    padding: 0.8rem ;
-    border-radius: 8px;
+    padding: 9px 10px;
+    border-radius: 8px ;
     cursor: pointer;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    width: 50%;
 }
 
 .stats{
